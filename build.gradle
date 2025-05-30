@@ -12,9 +12,8 @@ apply plugin: 'net.minecraftforge.gradle.forge'
 
 // Change Version and Package name here!
 version = "1.0.0"
-group = "com.basemod.base" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
-// Change the name of your .jar file here! (Mod Base-1.0.0)
-archivesBaseName = "Mod Base"
+group= "com.slymask3.instantblocks" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
+archivesBaseName = "instantblocks"
 
 sourceCompatibility = targetCompatibility = '1.8' // Need this here so eclipse task generates correctly.
 compileJava {
